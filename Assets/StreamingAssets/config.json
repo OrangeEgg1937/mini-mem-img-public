@@ -1,0 +1,32 @@
+{
+  "resPath": "res/level/",
+  "_comment": "appearRate on raw Image is temporarily disabled",
+  "rawImageResData": [
+    {
+      "name": "beast.png",
+      "typeID": 0
+    },
+    {
+      "name": "chimera.png",
+      "typeID": 0
+    },
+    {
+      "name": "chimera2.png",
+      "typeID": 0
+    },
+    {
+      "name": "meme.png",
+      "typeID": 1
+    }
+  ],
+  "backgroundImageName": "background.jpg",
+  "rewardPoints": 10.0,
+  "penaltyPoints": 0.0,
+  "fragmentRespawnInterval": 3.0,
+  "duration": 15.0,
+  "initialFragmentsCount": 4,
+  "targetPlayerMark": 50,
+  "_comment2": "===== 遊戲結束語 =====",
+  "endGameMessagesWin": "你真厲害！成功收集了所有碎片！",
+  "endGameMessagesLose": "時間到！你還差一些碎片沒收集完，加油！"
+}

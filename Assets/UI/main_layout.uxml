@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/UI/StyleSheets/GeneralSystemLabelStyle.uss?fileID=7433441132597879392&amp;guid=adb3202d93cd7324a8cbfb9b6fed4772&amp;type=3#GeneralSystemLabelStyle"/>
+    <ui:VisualElement name="Flexbox" picking-mode="Ignore" style="flex-grow: 1; align-items: auto; align-self: auto; align-content: auto; justify-content: space-between; flex-direction: row; width: 100%; flex-wrap: nowrap; height: 100%;">
+        <ui:VisualElement name="leftside" picking-mode="Ignore" style="flex-grow: 1; right: auto; bottom: 0; top: 0; align-items: center; left: 0; align-self: center; padding-top: 10%; padding-right: 3%; padding-bottom: 0; padding-left: 3%; width: 25%; align-content: auto; height: 100%; justify-content: flex-start;">
+            <ui:Label text="迷迷記憶收集" name="title_label" style="color: rgb(255, 250, 250); height: auto; -unity-text-generator: advanced; -unity-text-auto-size: best-fit 10px 100px; -unity-font-style: normal; -unity-text-outline-width: 2px; -unity-text-outline-color: rgb(0, 0, 0);"/>
+            <ui:Label text="點擊迷迷，收集5个記憶碎片！&#10;10秒內盡量點擊！" name="dynamic_title_label" style="-unity-font-definition: url(&quot;project://database/Assets/UI/Font/Noto/NotoSansTC-Bold.ttf?fileID=12800000&amp;guid=0f8f47281cad617429f274b0d68c7d92&amp;type=3#NotoSansTC-Bold&quot;); -unity-text-align: upper-center; font-size: 30px; color: rgb(255, 250, 250); -unity-text-auto-size: best-fit 10px 69px; -unity-text-generator: advanced; -unity-font-style: normal; width: auto; height: auto; -unity-text-outline-color: rgb(0, 0, 0); -unity-text-outline-width: 1px; white-space: nowrap;"/>
+            <ui:Image source="project://database/Assets/Res/meme.png?fileID=2800000&amp;guid=d0dbf84b91374b045b205ef08bcee352&amp;type=3#meme" name="background_img" scale-mode="ScaleToFit" style="height: 25%;"/>
+        </ui:VisualElement>
+        <ui:VisualElement picking-mode="Ignore" style="flex-grow: 1; width: 40%;"/>
+        <ui:VisualElement name="rightSide" picking-mode="Ignore" style="flex-grow: 1; right: 0; bottom: 0; top: 0; align-items: center; left: auto; align-self: center; padding-top: 10%; padding-right: 3%; padding-bottom: 0; padding-left: 3px; width: 25%; justify-content: flex-start; height: 100%; flex-direction: column; align-content: auto;">
+            <ui:VisualElement name="timer_containers" style="flex-direction: column; width: 70%; height: 25%; position: relative; top: 0; left: auto; right: 0;">
+                <ui:Label text="時間" name="title_label" style="color: rgb(255, 250, 250); height: 45%; -unity-text-generator: advanced; -unity-text-auto-size: best-fit 10px 100px;"/>
+                <ui:Image source="project://database/Assets/UI/Kenny/button_brown.png?fileID=2800000&amp;guid=95c942dfb38bb2248aca484d2ef85b59&amp;type=3#button_brown" name="background_img" scale-mode="StretchToFill" style="height: 100px;">
+                    <ui:Label text="10" name="timer_label" selectable="false" focusable="false" style="-unity-text-align: middle-center; -unity-font-definition: url(&quot;project://database/Assets/UI/Font/ZeroCool.ttf?fileID=12800000&amp;guid=4b5396d8b5a0d0f45b0a9be4162e113a&amp;type=3#ZeroCool&quot;); right: 0; bottom: 0; top: 0; left: 0; position: absolute; font-size: 50px; -unity-text-auto-size: best-fit 10px 100px;"/>
+                </ui:Image>
+            </ui:VisualElement>
+            <ui:VisualElement name="player_mark_containers" style="flex-direction: column; width: 70%; height: 25%; position: relative; top: auto; left: auto; aspect-ratio: auto;">
+                <ui:Label text="分數" name="title_label" style="-unity-font-definition: url(&quot;project://database/Assets/UI/Font/Noto/NotoSansTC-Bold.ttf?fileID=12800000&amp;guid=0f8f47281cad617429f274b0d68c7d92&amp;type=3#NotoSansTC-Bold&quot;); -unity-text-align: upper-center; font-size: 10px; color: rgb(255, 250, 250); -unity-text-auto-size: best-fit 10px 100px; -unity-text-generator: advanced; -unity-font-style: normal; width: 100%; height: 45%;"/>
+                <ui:Image source="project://database/Assets/UI/Kenny/button_brown.png?fileID=2800000&amp;guid=95c942dfb38bb2248aca484d2ef85b59&amp;type=3#button_brown" name="background_img" scale-mode="StretchToFill" style="height: 100px;">
+                    <ui:Label text="0000" name="player_mark_label" style="-unity-text-align: middle-center; -unity-font-definition: url(&quot;project://database/Assets/UI/Font/ZeroCool.ttf?fileID=12800000&amp;guid=4b5396d8b5a0d0f45b0a9be4162e113a&amp;type=3#ZeroCool&quot;); right: 0; bottom: 0; top: 0; left: 0; position: absolute; font-size: 50px; -unity-text-auto-size: best-fit 10px 100px;"/>
+                </ui:Image>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

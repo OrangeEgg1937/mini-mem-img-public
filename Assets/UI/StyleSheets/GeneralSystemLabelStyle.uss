@@ -1,0 +1,11 @@
+:root {
+}
+
+Label {
+    font-size: 50px;
+    -unity-font-definition: url("project://database/Assets/UI/Font/Noto/NotoSansTC-Bold.ttf?fileID=12800000&guid=0f8f47281cad617429f274b0d68c7d92&type=3#NotoSansTC-Bold");
+    -unity-font-style: normal;
+    -unity-text-auto-size: best-fit 1px 100px;
+    -unity-text-generator: advanced;
+    -unity-text-align: middle-center;
+}
